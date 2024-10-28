@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockstrail</title>
+    <style>
+        body{
+             background-color:rgba(0, 58, 57, 1) ;
+             position:absolute;
+
+        }
+        .s5851{
+            position: absolute;
+            width:1645.7px;
+            height:1069.56px;
+            top:893.64px;
+            left:-30 px;
+             align-items: center;
+            text-align: center;
+        
+        }
+        .money{
+            position: absolute;
+            text-align: center;
+            width:887px;
+            height:98px;
+            top:893.64px;
+            left:300.03px;
+             
+             font-family:Arial, Helvetica, sans-serif;
+             font-weight:400;
+            size:62px;
+            line-height: 97.57px;
+            letter-spacing: -3%;
+            text-align: center;
+            font-size: 53px;
+
+              /*  font-family:Arial, Helvetica, sans-serif;
+                font-weight: 300;
+                text-align: center;
+                padding:0px;
+                left:304.03px; */
+                 
+            }
+            .s4795-innerdiv {
+                position: absolute;
+                width:960.75px;
+                height:697.66px;
+                top:1000.85px;
+                left:375.54px;
+                gap:62px;
+            }
+
+            .services {
+                position: absolute;
+                width:194px;
+                height: 53px;
+                top:850.46px;
+                left:375.53px;
+                border-radius:50px;
+                  
+                padding-top: 15px;
+                padding-right: 25px;
+                padding-bottom: 15px;
+                padding-left: 25px;
+                gap:15px;
+                align-items:center;
+                text-align: center;
+            }
+
+            
+            .major-div{
+                position:absolute;               
+                width:1645.7px;
+                height:897.72px;
+                top:1065.48px;
+                left:-102.85px;
+                display:flex;
+                flex-direction: column;
+             }
+             .s4795 .rect1 {
+
+                position: absolute;
+                width:1645.7px ;
+                height:210.57px;
+                top:1122.54px;
+                left:-163.91px;
+                background-color: #012928;
+                border-radius: 110px;
+                border: 3px;
+                border-color: #c2b9b9;
+                
+                
+                
+             }
+             .rect1{
+                background-color: #012928;
+                border-radius: 100px;
+                padding:10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border: 3px;
+                border-color: #c2b9b9;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+
+             }
+             .piggybank 
+             {
+
+                 width: 90px;
+                height: 90px;
+                top: 18.6px;
+                left:22.71px;
+                border-radius: 100%;
+             }
+             .mutual_funds {
+                text-align:center;
+                font-weight: 200;
+                font-size: large;
+                color: white;
+             }
+            .mutual_funds_text {
+                color:#ccc;
+                text-align: center;
+                align-items: center;
+                 font-size: large;
+
+
+            }
+            .mutual_funds_total_text .mutual_funds{
+                text-align: center;
+                align-items: center;
+
+            }
+            
+            #arrow{
+                 
+                width:90px;
+                height: 90px;
+               /* top: 1156.52px;
+                left: 1155.96px; */
+                border-radius: 100%;
+            }
+            #arrow:hover {
+                background-image: url('ArrowInGreen.png');
+                width:90px;
+                height: 90px;
+                border-radius: 100%;
+            }
+            .rect2 {
+                position: absolute;
+                width: 960.75px;
+                height: 127.91px;
+                top: 189.91px;
+                border-color: #c2b9b9;
+                border: 3px;
+                border-radius: 105px;
+                background-color: #012928;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+
+
+            }
+            .dollar {
+                 width: 90px;
+                height: 90px;
+                /* top: 206.87px;
+                left:22.71px; */
+                border-radius: 100px;  
+                padding: 0px 0px 0px 25px;
+            }
+            .arrow2{
+                
+                border-radius: 100px;
+                height:90px;
+                width: 90px;
+               /* top: 208.79px;
+                left: 852.71px; */
+                padding:0px 20px 0px 0px;
+            }
+            .demat_account_text {
+                text-align: center;
+            
+            }
+            .demat {
+                 font-size: large;
+                color: white;
+            }
+            .demat_text{
+                 font-size: large;
+                color:#ccc
+            }
+             .rect3 {
+                position: absolute;
+                width: 957.57px;
+                height: 127.91px;
+                top: 379.83px;
+
+                border: 3px;
+                border-radius: 105px;
+                background-color: #012928;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+
+
+             }
+            .document{
+                 width:90px;
+                height:90px;
+                /* top:188.93px;
+                left:9.6px; */
+                border-radius : 100px;  
+                padding: 0px 0px 0px 25px;
+
+
+            }
+            .insurance_total_text{
+                text-align: center;
+                font-size: large;
+
+            }
+            .insurance {
+                color: white;
+            }
+            .insurance_text {
+                color:#ccc;
+            }
+            .arrow3 {
+                 border-radius: 105px;
+                height:90px;
+                width: 90px;
+                padding:0px 20px 0px 0px;
+
+
+            }
+            .rect4{
+                position: absolute;
+                width:957.75px;
+                height: 127.91px;
+                top: 569.74px;
+                border:3px;
+                border-radius: 105px;
+                background-color: #012928;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+
+            }
+            .other_img{
+                border-radius: 100px;
+                width:90px;
+                height: 90px;
+                top:588.7px;
+                left: 22.71px;
+                padding: 0px 0px 0px 25px;
+
+            }
+            .arrow4{
+                width: 90px;
+                height: 90px;
+                border-radius: 100px;
+                padding:0px 20px 0px 0px;
+            }
+            .others_total_text{
+                text-align: center;
+                font-size:large
+            }
+  /*         .services {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Horizontal centering 
+    align-items: center;     /* Vertical centering 
+} 
+*/
+.learn-more-button2 {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    position: relative;
+}
+
+.learn-more-button2 .green-dot2 {
+    width: 12px;
+    height: 12px;
+    background-color: #207c20; /* Bright green dot */
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.learn-more-button2:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.why_block {
+    position: absolute;
+    width: 1499.89px;
+    height: 635.57px;
+    top: 2929.98px;
+    left: -47.8px;
+}
+.why__text {
+    width: 83000px;
+    height: 78px;
+    top:2984.8px;
+    left: 300.33px;
+
+}
+.why_stock_text {
+    position: absolute;
+            text-align: center;
+            width:887px;
+            height:98px;
+            top:893.64px;
+            left:350.03px;
+             
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight:400;
+            size:62px;
+            line-height: 97.57px;
+            letter-spacing: -3%;
+            text-align: center;
+            font-size: 53px;
+
+}
+.why_block{
+    width: 1195px;
+    height: 307.13px;
+    top: 3163.26px;
+    left:120.5px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+
+}
+ .client{
+    position: absolute;
+    width: 1271.11px;
+    height: 742.74px;
+    top: 1004.41px;
+    left: 92.53px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+
+
+ }
+ 
+
+
+    </style>
+</head>
+<body>
+    <div class="s5851">
+        <h1 class="money" style="color:white;"> <font color="white">INVEST YOUR</font> <font color="green">MONEY</font> <font color="white">ON THE GO</font></h1>
+
+    </div>
+<div class="major-div">
+
+     
+    <div class="s4795-innerdiv">
+        <div class="rect1">
+        <img src="piggybank.png" class="piggybank">
+        <div class="mutual_funds_total_text">  
+<p class="mutual_funds" ><b>MUTUAL FUNDS</b></p>
+<p class="mutual_funds_text">Our expertly managed funds offer a convenient way to grow
+    your wealth over time,<br> with the potential for long-term returns and minimal risk.</p>
+   </div> 
+    <img src="arrow.png" id="arrow">
+        </div>
+    <div class="rect2">
+        <img src="dollar.png" class="dollar">
+        <div class="demat_account_text" >
+            <p class="demat"> <B>DEMAT ACCOUNT</B></p>
+            <p class="demat_text"> With a Demat account, you can buy, sell, and transfer securities quickly and <br>efficiently, providing you with greater control and flexibility over your investments.</p> 
+        </div>
+         
+        <img src="arrow.png" class="arrow2" >
+    </div>
+ 
+     
+    
+     <div class="rect3">
+        <img src="document.png" class="document">
+        <div class="insurance_total_text">
+            <p class="insurance" > <b>INSURANCE</b></p>
+            <p class="insurance_text">Protect yourself and your loved ones from life's uncertainties with our <br> comprehensive insurance plans.</p>
+
+        </div>
+        <img src="arrow.png" class="arrow3">
+
+     </div>
+      
+    <div class="rect4">
+        <img src="othersImage.png" class="other_img">
+        <div class="others_total_text">
+            <p class="others" style="color: white;"><b>OTHERS</b></p>
+            <P class="others_text" style="color: #ccc;">In addition to our core financial services, we also offer a range of other solutions to <br> support your financial well-being.</P>
+        </div>
+        <img src="arrow.png" class="arrow4">
+    </div>
+    <div class="services">
+            <a href="#" class="learn-more-button2">
+                <span class="green-dot2"></span>
+                All services
+            </a>    
+        </div>
+
+    <div class="client">
+
+    </div>
+
+        <div class="why_block">
+             
+            <div class="why_text">
+                <h1 class="why_stock_text" style="color:white;"> <font color="white">WHY CHOOSE </font> <font color="rgb(25,158,87)">STOCKSTRAIL</font></h1>
+                <div class="why_box" >
+                
+                </div>
+ 
+            </div>
+        </div>
+
+        
+</div>
+</body>
+</html>
